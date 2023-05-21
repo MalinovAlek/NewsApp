@@ -1,0 +1,49 @@
+<mxfile host="Electron" modified="2023-05-19T19:26:28.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="D6xhscUJC26GveOvcMgP" version="21.2.8" type="device">
+  <diagram name="Page-1" id="mMEj-6TuPPxSkSJNloqO">
+    <mxGraphModel dx="1886" dy="1706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NjniflohWmRIDVxy1VjN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NjniflohWmRIDVxy1VjN-1" target="NjniflohWmRIDVxy1VjN-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-1" value="&lt;b&gt;UI &lt;br&gt;&lt;/b&gt;User login and registration,&lt;br&gt;CRUD for calendars and custom reminders," style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="-120" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NjniflohWmRIDVxy1VjN-4" target="NjniflohWmRIDVxy1VjN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-4" value="&lt;b&gt;APPLICATION&lt;br&gt;&lt;/b&gt;Business logic for calendar reminder and customer managemenet" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="460" y="140" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-6" value="&lt;b&gt;EXTERNAL SERVICES&lt;/b&gt;&lt;br&gt;Reminder Service(email and phone reminder)&lt;br&gt;Public Holiday API (Data retrieval)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="160" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NjniflohWmRIDVxy1VjN-7" target="NjniflohWmRIDVxy1VjN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NjniflohWmRIDVxy1VjN-7" target="NjniflohWmRIDVxy1VjN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.39;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NjniflohWmRIDVxy1VjN-7" target="NjniflohWmRIDVxy1VjN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-7" value="&lt;b&gt;API LAYER &lt;/b&gt;&lt;br&gt;Calendar Reminder Customer API&lt;br&gt;(REST Endpoints)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="10" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NjniflohWmRIDVxy1VjN-8" target="NjniflohWmRIDVxy1VjN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-8" value="&lt;b&gt;DATA ACCESS LAYER&lt;/b&gt;&lt;br&gt;Calrender, Reminder and Customer Repository" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NjniflohWmRIDVxy1VjN-32" target="NjniflohWmRIDVxy1VjN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NjniflohWmRIDVxy1VjN-32" value="&lt;b&gt;AUTHENTICATION&lt;br&gt;&lt;/b&gt;User registration and login, access controll, authentication providers" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-120" width="230" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
